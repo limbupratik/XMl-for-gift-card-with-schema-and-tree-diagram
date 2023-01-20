@@ -1,0 +1,138 @@
+
+starting_date,
+     ending_date, 
+         EstDate {
+    display: block;
+    text-align: center;
+    color:rgb(255,255,255);
+}
+name1{
+    display: block;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 34px;
+    margin: 0px 350px;
+    padding:0px 30px;
+
+    /* background-color: rgb(54, 47, 54);  */
+    background-color: rgb(23, 21, 14); 
+}
+
+store{
+    display: block;
+    background-image: url("images/logo.jpg");
+    background-position: left;
+    background-size: 150px;
+    background-color: black;
+    color: red;
+    background-repeat: no-repeat;
+}
+
+
+title{
+    display: block;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+name{
+    
+    color:	rgb(255,250,240);
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+name:hover{
+    text-transform: uppercase;
+    color: rgb(154,205,50);
+}
+HelpLineNumber{
+    display: block;
+    color:	rgb(255,250,240) ;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+street,
+    zip_code,
+         city,
+             website{
+    display: block;
+    text-align: center;
+    color : rgb(255,255,255);
+    font-size:14px;
+    background-color: rgb(23, 21, 14); 
+    margin: 0px 350px;
+    padding: 0px 30px;
+}
+
+
+
+
+Stores{
+    background-color: rgb(54, 47, 54); 
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0%;
+    margin-top: 0%;   
+}
+GiftCard{
+    background-color:#040401;
+    display: block;
+    border: solid;
+    border-color: rgb(240, 248, 255);
+    border-style:line;
+    border-color: rgb(255,255,0);
+    border-width: 1px;
+    padding-top: 20px;
+    border-radius: 0%;
+    margin: 20px 350px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+GiftCard:hover{
+    transform: scale(1.05);
+    border: solid;
+    border-color: rgb(255,255,0);
+    border-style: line;
+    border-width: 2px;
+    background-color: rgb(23, 21, 14); 
+    /* padding-bottom: 4px; */
+}
+price,
+    package,
+         subscription,
+             Discount,
+                  no_of_user, 
+                      Rating{
+    display: block;
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 18px;
+
+  } 
+  point1{
+      display: list-item;
+      color: rgb(255,255,255);
+      text-align: justify;
+      margin-left: 14px;
+      margin-top: 5px;
+      text-size-adjust: auto;
+    
+  }
+  tag{
+      color:rgb(255,255,255);
+      margin-top: 10px;
+      text-decoration: underline;
+  }

@@ -1,0 +1,82 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Stores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="store">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name1"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element name="zip_code"/>
+                    
+                    <xs:element type="xs:string" name="city"/>
+                    <xs:element type="xs:anyURI" name="website"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="phn_number"/>
+              <xs:element type="xs:string" name="logo"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GiftCards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GiftCard" maxOccurs="unbounded" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation> card 1 card 2 card 3Card 4 Card 5</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="provider">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="name"/>
+                          <xs:element name="HelpLineNumber"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="validity">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="starting_date"/>
+                          <xs:element type="xs:string" name="ending_date"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="package"/>
+                    <xs:element name="subscription">
+                      <xs:complexType>
+                        <xs:choice maxOccurs="unbounded" minOccurs="0">
+                          <xs:element type="xs:string" name="plan"/>
+                          <xs:element  name="price"/>  
+                          <xs:element type="xs:string" name="Discount"/>
+                          <xs:element type="xs:string" name="no_of_user"/>
+                          <xs:element type="xs:string" name="Rating"/>
+                        </xs:choice>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="title"/>
+                    <xs:element name="Benfit">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="tag"/>
+                          <xs:element type="xs:string" name="point1" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="id" use="optional"/>
+                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

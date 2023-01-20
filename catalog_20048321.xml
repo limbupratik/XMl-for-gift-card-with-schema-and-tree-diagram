@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_20048321.css" Title="Gift Card Store"?>
+
+<Stores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20048321.xsd ">
+   <store>
+     <name1>TheirPerfectGift</name1>
+         <Address>
+              <street>39 Ludgate Hill</street>
+              <zip_code>90885</zip_code>
+              <city>united kingdom</city>
+              <website>www.TheirPerfectGift.com</website>
+             </Address>
+          <phn_number></phn_number>
+          <logo></logo>
+            </store>
+    <GiftCards>
+    <!-- card 1-->
+        <GiftCard id="001" type="Physical">
+             <provider>
+                 <name> Amazon Gift Card</name>
+                 <HelpLineNumber>+971 008987678 </HelpLineNumber>
+             </provider>
+             <validity>
+                  <starting_date>D.O.I:  2020-04-21</starting_date>
+                  <ending_date>D.O.E:  2021-04-21</ending_date>
+             </validity> 
+             <package>Types:  Multi-store gift card</package>
+             <subscription>
+                    <plan>subscription plan: Basic </plan> 
+                    <price>200 </price>
+                    <Discount>Discount:  300 </Discount>
+                    <no_of_user>User:  600</no_of_user>
+                    <Rating>Rating:  4.5 in 5</Rating>
+              </subscription>
+              <title>Uses:  For Retail Store, Restaurants</title>
+              <Benfit>
+                  <tag>Benifit:</tag>
+                     <point1>Easy, unlimited access to the US Google Play Store’s extensive catalogue of content — at any time and using any device.</point1>
+                     <point1>Better prices.</point1>
+                     <point1>Secure transaction.</point1>
+                 </Benfit>
+             </GiftCard>
+           <!-- card 2 -->
+                 <GiftCard id="002" type="Online">
+                    <provider>
+                         <name> ITunes Gift Card</name>
+                         <HelpLineNumber>+971 6789049291 </HelpLineNumber>
+                     </provider>
+                     <validity>
+                         <starting_date>D.O.I:  2020-03-21</starting_date>
+                         <ending_date>D.O.E:  2020-12-21</ending_date>
+                     </validity>
+      
+                        <package>Types:  Single store gift card</package>
+                        <subscription>
+                        <plan>subscription Plan :Basic </plan>
+                        <Discount>Discount:  1 </Discount>
+                        <price>Price: $25 </price>
+                        <no_of_user>User:  100,000</no_of_user>
+                        <Rating>Rating:  5 in 5</Rating>
+                        </subscription>
+                 
+                     <title>Uses:  Apple store</title>
+                     <Benfit>
+                         <tag>Benifit:</tag>
+                         <point1>An iTunes gift card can be used by anyone, yes, that include iOS and Android Users. It is almost just perfect all smart phone users. For movie enthusiasts, iTunes gift card can be used to stay entertained with the latest movies. Music can be bought using this card should you not fancy music streaming as such. This will give you access to millions of songs and albums to build your playlist. For book lovers, you can browse through a massive library of books, make a choice and purchase as many as you want with the gift card. For game enthusiasts, the iTunes gift card offers the opportunity to download premium games to keep you entertained.</point1>     
+                    </Benfit>
+                 </GiftCard>
+         <!--card 3-->
+              <GiftCard id="003" type="Physical">
+                     <provider>
+                         <name> Domino sGift Card</name>
+                         <HelpLineNumber>+971 0148987678 </HelpLineNumber>
+                     </provider>
+                     <validity>
+                          <starting_date>D.O.I:  2020-04-21</starting_date>
+                          <ending_date>D.O.E:  2021-04-21</ending_date>
+                     </validity>
+                     
+                     <package>Types:  Single-store gift card</package>
+                     <subscription>
+                            <plan>subscription plan: Medium </plan>
+                            <price>Price: $100 </price>
+                            <Discount></Discount>
+                            <no_of_user>User:  156,000</no_of_user>
+                            <Rating></Rating>
+                     </subscription>
+                     <title>Uses:  For Retail: Restaurants</title>
+                     <Benfit>
+                         <tag>Benifit:</tag>
+                         <point1>A Domino's Pizza gift card is a gift everyone loves to receive. Domino's gift cards can be redeemed for pizza, sandwiches, deserts and more. Try Domino’s Artisan™ Pizza, Stuffed Cheesy Bread, Oven Baked Sandwiches, Parmesan Bread Bites, or Chocolate Lava Crunch Cakes. A Domino's Pizza gift card lets you dine in the restaurant or order pizza online to be delivered to your home. Domino's Pizza gift cards can be sent by mail. Treat someone to a Domino's gift card today.</point1>
+                    </Benfit>
+                 </GiftCard>
+           <!--Card 4 -->
+                <GiftCard id="003" type="Physical">
+                     <provider>
+                         <name> Dominos Gift Card</name>
+                         <HelpLineNumber>+971 0148987678 </HelpLineNumber>
+                 </provider>
+                     <validity>
+                         <starting_date>D.O.I:  2020-04-21</starting_date>
+                         <ending_date>D.O.E:  2021-04-21</ending_date>
+                 </validity>
+                     <package>Types:  Single-store gift card</package>
+                     <subscription>
+                            <plan>subscription plan: premium </plan>
+                            <price>Price: $1000 </price>
+                            <Discount></Discount>
+                            <no_of_user>User:  1,500,000</no_of_user>
+                            <Rating>Rating: 5 in 5</Rating>
+                     </subscription>
+                     <title>Uses:  For Retail: inGame Purchase</title>
+                     <Benfit>
+                         <tag>About:</tag>
+                         <point1>Gift Card and give someone endless ways to play. Easily redeem gift cards in the Google Play store app on a phone, tablet or computer. Your recipient can spend their gift funds on a new game, app, book, movie or for a new or existing digital subscription. And they have their funds forever! The gift card funds never expire, so they can treat themselves whenever they find exactly what they’re looking for. Give the gift of play today with a Google Play Gift Card from GiftCards.com. They can use it to add to their game collection or start a new book. There are thousands of ways to entertain yourself in the Google Play store.</point1>
+                 </Benfit>
+           </GiftCard>
+           <!--Card 5-->
+        <GiftCard id="003" type="Physical">
+             <provider>
+                 <name> Ebay Gift Card</name>
+                 <HelpLineNumber>+971 8410987678 </HelpLineNumber>
+         </provider>
+             <validity>
+              <starting_date>D.O.I:  2022-04-21</starting_date>
+              <ending_date>D.O.E:  2024-04-21</ending_date>
+          </validity>
+            
+             <package>Types:  Multi-store gift card</package>
+             <subscription>
+                    <plan>subscription plan: premium </plan>
+                    <price>Price: $500 </price>
+                    <Discount></Discount>
+                    <no_of_user>User:  1,50,000</no_of_user>
+                    <Rating>Rating: 5 in 5</Rating>
+                </subscription>
+             <title>Uses:  For Retail: Retail store, Gas station, restaurant and other location.</title>
+            <Benfit>
+                  <tag>About:</tag>
+                  <point1>Treat your eBay Gift Card like cash. Only redeemable to purchase items directly on eBay.com., where PayPal is accepted. To use this Gift Card, you must have a U.S. registered eBay account, a PayPal account, and a U.S. shipping address. After first use, your eBay Gift Card is non-transferrable. Not refundable or redeemable for cash unless required by law. Your eBay Gift Card never expires and there are no fees. Your eBay Gift Card is subject to full terms and conditions. Redemption limits apply. To check balance, seek assistance.</point1>
+               </Benfit>
+           </GiftCard>
+    </GiftCards>
+</Stores>
